@@ -1,0 +1,166 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "search for game",
+    "line": 1,
+    "id": "search-for-game",
+    "tags": [],
+    "uri": "features\\ScenarioOutline.feature",
+    "elements": [
+      {
+        "id": "search-for-game;searching-for-game",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Searching for game",
+        "tags": [
+          {
+            "name": "@OutlineScenario",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am on \"game\" page",
+            "match": {
+              "location": "typeScript\\stepdefinitions\\homePage.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I type \"XBOX\"",
+            "match": {
+              "location": "typeScript\\stepdefinitions\\search.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 481000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I click on search button",
+            "match": {
+              "location": "typeScript\\stepdefinitions\\search.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I type \"XBox one games\"",
+            "match": {
+              "location": "typeScript\\stepdefinitions\\search.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 557000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I click on search button",
+            "match": {
+              "location": "typeScript\\stepdefinitions\\search.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1521000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I scroll until \"MOTO GP 19\" is in view",
+            "match": {
+              "location": "typeScript\\stepdefinitions\\plpPage.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I am on \"plp\" page",
+            "match": {
+              "location": "typeScript\\stepdefinitions\\homePage.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click on \"MOTO GP 19\"",
+            "match": {
+              "location": "typeScript\\stepdefinitions\\plpPage.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be taken to \"MotoGP\" screen",
+            "match": {
+              "location": "typeScript\\stepdefinitions\\homePage.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "typeScript\\support\\hooks.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
