@@ -1,6 +1,5 @@
 {
   "name": "protractor-typescript-cucumber",
-  "version": "4.0.0",
   "license": "MIT",
   "description": "To demostrate protractor cucumber tests for angular/non angular apps with allure report framework",
   "homepage": "https://github.com/oomkarpanditstudent/protractor-cucumber-typescript-example.git",
@@ -59,7 +58,6 @@
     "@types/load-json-file": "^2.0.5",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "cucumber-html-reporter": "^4.0.3",
     "concurrently": "4.1.0",
     "cross-env": "^5.2.0",
     "cucumber": "^5.1.0",
