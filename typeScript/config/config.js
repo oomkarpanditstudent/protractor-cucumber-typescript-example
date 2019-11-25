@@ -10,6 +10,9 @@ exports.config = {
     baseUrl: "https://www.game.co.uk/",
     capabilities: {
         browserName: "chrome",
+        chromeOptions: {
+            args: ["--headless"]
+        }
     },
     framework: "custom",
     frameworkPath: require.resolve("protractor-cucumber-framework"),

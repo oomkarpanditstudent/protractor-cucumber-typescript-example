@@ -30,7 +30,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 35000000
+              "duration": 9000000
             }
           },
           {
@@ -43,7 +43,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 109000000
+              "duration": 93000000
             }
           },
           {
@@ -56,7 +56,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3090000000
+              "duration": 3091000000
             }
           },
           {
@@ -69,7 +69,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 792000000
+              "duration": 438000000
             }
           },
           {
@@ -82,7 +82,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2065000000
+              "duration": 1644000000
             }
           },
           {
@@ -108,7 +108,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 157000000
+              "duration": 101000000
             }
           },
           {
@@ -121,7 +121,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 2000000
             }
           },
           {
@@ -134,7 +134,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 2000000
             }
           },
           {
@@ -144,8 +144,7 @@
               "location": "typeScript\\support\\hooks.js:17"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
