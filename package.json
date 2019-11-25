@@ -27,7 +27,7 @@
     "add-contributors": "all-contributors add",
     "generate-contributors": "all-contributors generate",
     "test": "npm run clean && npm run build && protractor typeScript/config/config.js",
-    "webdriver-update": "webdriver-manager update",
+    "webdriver-update": "webdriver-manager update --standalone false --gecko false",
     "webdriver-start": "webdriver-manager start"
   },
   "dependencies": {
