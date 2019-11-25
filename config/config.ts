@@ -14,6 +14,9 @@ export const config: Config = {
 
     capabilities: {
         browserName: "chrome",
+        chromeOptions: {
+            args: [ "--headless" ]
+          }
     },
 
     framework: "custom",
