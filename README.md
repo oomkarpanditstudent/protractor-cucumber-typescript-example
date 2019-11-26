@@ -1,4 +1,4 @@
-### Protractor-Cucumber-TypeScript Setup Guide .  
+### Protractor-Cucumber-TypeScript Setup Guide   
 
 
 ### Features
