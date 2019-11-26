@@ -8,7 +8,7 @@ export const config: Config = {
     seleniumAddress: "http://127.0.0.1:4444/wd/hub",
 
     SELENIUM_PROMISE_MANAGER: false,
-    directConnect: true,
+    directConnect: false,
 
     baseUrl: "https://www.game.co.uk/",
 
