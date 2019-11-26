@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 
 test- trying  to run headless chrome on AWS EC2 instance via Jenkins -also testing SCM poll
 
 ### Protractor-Cucumber-TypeScript Setup Guide  .
+=======
+### Protractor-Cucumber-TypeScript Setup Guide   
+>>>>>>> 8f0d44c907e5a4cee7b6a25fa7262e3a0fc911c4
 
 
 ### Features
