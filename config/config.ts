@@ -5,10 +5,10 @@ const jsonReports = process.cwd() + "/reports/json";
 
 export const config: Config = {
 
-    seleniumAddress: "http://127.0.0.1:4444/wd/hub",
+   // seleniumAddress: "http://127.0.0.1:4444/wd/hub",
 
     SELENIUM_PROMISE_MANAGER: false,
-    directConnect: false,
+    directConnect: true,
 
     baseUrl: "https://www.game.co.uk/",
 
